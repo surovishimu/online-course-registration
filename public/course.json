@@ -1,0 +1,74 @@
+[
+    {
+        "id": "course_1",
+        "course_name": "Introduction to C Programming",
+        "description": "Learn the basics of C programming language and start your journey into the world of software development.",
+        "price": "$49.99",
+        "credit_hours": "3",
+        "image_url": "https://i.ibb.co/S323V1f/Rectangle-2-2.png"
+    },
+    {
+        "id": "course_2",
+        "course_name": "Introduction to Algorithms",
+        "description": "Explore fundamental algorithms and data structures used in computer science and problem-solving.",
+        "price": "$59.99",
+        "credit_hours": "4",
+        "image_url": "https://i.ibb.co/zmW15rp/Rectangle-2-3.png"
+    },
+    {
+        "id": "course_3",
+        "course_name": "Introduction to C++ for DSA",
+        "description": "Master C++ programming for data structures and algorithms with hands-on examples and projects.",
+        "price": "$69.99",
+        "credit_hours": "3",
+        "image_url": "https://i.ibb.co/T4d8MPQ/Rectangle-2-4.png"
+    },
+    {
+        "id": "course_4",
+        "course_name": "Basic Data Structures",
+        "description": "Build a strong foundation in data structures and their applications in software development.",
+        "price": "$54.99",
+        "credit_hours": "3",
+        "image_url": "https://i.ibb.co/YpKF6tn/Rectangle-3.png"
+    },
+    {
+        "id": "course_5",
+        "course_name": "Introduction to OOP Python",
+        "description": "Learn object-oriented programming in Python and enhance your coding skills.",
+        "price": "$49.99",
+        "credit_hours": "2",
+        "image_url": "https://i.ibb.co/qjVQvG8/Rectangle-2.png"
+    },
+    {
+        "id": "course_6",
+        "course_name": "Software Engineering",
+        "description": "Dive into software engineering principles and best practices to develop high-quality software.",
+        "price": "$79.99",
+        "credit_hours": "5",
+        "image_url": "https://i.ibb.co/j3tR72k/Rectangle-2-5.png"
+    },
+    {
+        "id": "course_7",
+        "course_name": "AWS Cloud Computing",
+        "description": "Explore Amazon Web Services (AWS) and cloud computing to deploy scalable applications.",
+        "price": "$89.99",
+        "credit_hours": "4",
+        "image_url": "https://i.ibb.co/8jt09jB/Rectangle-3-1.png"
+    },
+    {
+        "id": "course_8",
+        "course_name": "Database (MySQL)",
+        "description": "Learn MySQL database management and SQL query optimization for efficient data handling.",
+        "price": "$59.99",
+        "credit_hours": "3",
+        "image_url": "https://i.ibb.co/q5y2nWP/Rectangle-2-1.png"
+    },
+    {
+        "id": "course_9",
+        "course_name": "Problem-Solving Part",
+        "description": "Enhance your problem-solving skills and tackle complex challenges with confidence.",
+        "price": "$44.99",
+        "credit_hours": "2",
+        "image_url": "https://i.ibb.co/JBKDZ2M/Rectangle-2-6.png"
+    }
+]
