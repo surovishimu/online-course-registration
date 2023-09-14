@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 const SelectedCourse = ({ selectedCourse, totalPrice, totalCreditHour, totalRemaining }) => {
     return (
-        <div className="md:w-1/4 pr-5 mt-10">
+        <div className="lg:w-1/4 md:w-1/3 lg:pr-5 md:pr-0 mt-10">
             <div className='card bg-base-100 shadow-xl mx-5'>
                 <div className='card-body'>
                     <h2 className="text-[#2F80ED] text-sm font-semibold  border-b-2 py-2">Credit Hour Remaining:{totalRemaining}</h2>

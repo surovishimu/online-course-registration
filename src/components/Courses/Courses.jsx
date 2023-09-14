@@ -13,7 +13,7 @@ const Courses = ({ handleselectedCourse }) => {
     }, [])
 
     return (
-        <div className="md:w-3/4 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 px-10">
+        <div className="lg:w-3/4 md:w-2/3 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 px-10">
             {
                 courses.map(course => <Course
                     key={course.id}
