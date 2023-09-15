@@ -14,10 +14,10 @@ const Course = ({ course, handleselectedCourse }) => {
                     <small className='text-stone-400'>{description}</small>
                     <div className='flex gap-16 text-start'>
                         <small className='text-stone-400'> <FaDollarSign className='inline text-lg text-gray-700'></FaDollarSign> Price:{price}</small>
-                        <small className='text-stone-400'><FaBookOpen className='inline mr-2 text-gray-700 text-lg'></FaBookOpen>Credit:{credit_hours}</small>
+                        <small className='text-stone-400'><FaBookOpen className='inline mr-2 text-gray-700 text-lg'></FaBookOpen>Credit:{credit_hours}hr</small>
                     </div>
                     <div className="card-actions ">
-                        <button onClick={()=>handleselectedCourse(course)} className="btn bg-[#2F80ED] text-lg text-white normal-case w-full mt-2 -mb-4 hover:bg-[#2F80ED]">Select</button>
+                        <button onClick={() => handleselectedCourse(course)} className="btn bg-[#2F80ED] text-lg text-white normal-case w-full mt-2 -mb-4 hover:bg-[#2F80ED]">Select</button>
                     </div>
                 </div>
             </div>
