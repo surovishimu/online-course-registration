@@ -28,7 +28,7 @@ The `selectedCourse` state manages the courses that a user has enrolled in. It i
 The totalPrice state keeps track of the total price of all the selected courses. It is initialized as an array with a single element set to 0. I have update this state whenever the user adds a course to ensure that it reflects the current total cost.
 
 ### `totalRemaining` State
-The totalRemaining state represents the remaining balance or budget available to the user after enrolling in courses. I have initialize it to 0 and update it as the user enrolls courses. This state helps users keep track of their spending on courses.
+The totalRemaining state represents the remaining balance or budget available to the user after enrolling in courses. I have initialize it to 20 and update it as the user enrolls courses. This state helps users keep track of their spending on courses.
 
 ### `totalCreditHour` State
 I have also keep track of the total credit hours of the selected courses using the totalCreditHour state. This state helps users monitor their course workload.  However, it's important to note that there is a constraint: a user cannot select more than 20 credit hours of courses.The `totalCreditHour` state is initialized to 0 and updated as courses are added, if the total exceeds 20 credits, it will provide a notification.

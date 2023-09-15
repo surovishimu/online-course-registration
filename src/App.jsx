@@ -9,7 +9,7 @@ import { Toaster, toast } from 'react-hot-toast';
 function App() {
   const [selectedCourse, setSelectedCourse] = useState([]);
   const [totalPrice, setTotalPrice] = useState([0]);
-  const [totalRemaining, setTotalRemaining] = useState(0);
+  const [totalRemaining, setTotalRemaining] = useState(20);
   const [totalCreditHour, setTotalCreditHour] = useState(0);
   const handleselectedCourse = course => {
     const isExist = selectedCourse.find(item => item.id == course.id);
@@ -23,6 +23,7 @@ function App() {
         style: {
           height: '100px',
           borderRadius: '10px',
+
 
         },
       });
